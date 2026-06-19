@@ -80,6 +80,10 @@ import com.hrm.markdown.renderer.MarkdownImageData
 import com.hrm.markdown.renderer.MarkdownTheme
 import kotlinx.coroutines.launch
 
+import com.github.zly2006.zhihu.eink.LocalEinkMode
+import com.github.zly2006.zhihu.theme.ThemeManager
+import androidx.compose.material3.LocalContentColor
+
 @Composable
 fun RenderImage(
     data: MarkdownImageData,
