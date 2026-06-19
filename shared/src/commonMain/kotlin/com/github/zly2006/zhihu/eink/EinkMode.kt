@@ -7,4 +7,4 @@ import androidx.compose.runtime.staticCompositionLocalOf
  * true: 墨水屏模式 (纯黑白，无动画，强制原生渲染)
  * false: 普通模式
  */
-val LocalEinkMode = staticCompositionLocalOf { false }
+val LocalEinkMode = staticCompositionLocalOf { true }
